@@ -157,7 +157,3 @@ The application uses the employee dataset provided as part of the FactWise asses
 ## Author
 
 **Saurabh Jaiswar**
-
-GitHub: https://github.com/YOUR_USERNAME
-
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN_PROFILE
