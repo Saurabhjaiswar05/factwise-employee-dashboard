@@ -1,16 +1,163 @@
-# React + Vite
+# Employee Dashboard - FactWise Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Employee Dashboard built using React, AG Grid, and Tailwind CSS. The application displays employee records in a powerful data grid with search, filtering, sorting, pagination, and employee detail views.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Employee Dashboard built with React
+- AG Grid integration
+- Global Search
+- Column Sorting
+- Column Filtering
+- Pagination
+- Employee Details Modal
+- Responsive UI using Tailwind CSS
+- Employee Statistics Cards
+- Active / Inactive Employee Status
+- Custom Action Column with View Details
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- AG Grid
+- Tailwind CSS
+- React Icons
+- JavaScript (ES6+)
+
+---
+
+## Project Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/factwise-employee-dashboard.git
+```
+
+### Navigate to Project
+
+```bash
+cd factwise-employee-dashboard
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Open Browser
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Dependencies Used
+
+### AG Grid
+
+```bash
+npm install ag-grid-react ag-grid-community
+```
+
+### React Icons
+
+```bash
+npm install react-icons
+```
+
+### Tailwind CSS
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── EmployeeTable.jsx
+│   ├── EmployeeDetailsModal.jsx
+│   └── StatsCards.jsx
+│
+├── data/
+│   └── employees.json
+│
+├── pages/
+│   └── Dashboard.jsx
+│
+├── App.jsx
+│
+└── main.jsx
+```
+
+---
+
+## Dashboard Features
+
+### Statistics Cards
+
+- Total Employees
+- Active Employees
+- Inactive Employees
+- Average Salary
+- Total Departments
+
+### Employee Grid
+
+- Search Employees
+- Sort Columns
+- Filter Data
+- Pagination
+- Responsive Layout
+
+### Employee Details Modal
+
+Displays:
+
+- Employee ID
+- Name
+- Email
+- Department
+- Position
+- Salary
+- Hire Date
+- Age
+- Location
+- Performance Rating
+- Projects Completed
+- Skills
+- Manager
+- Status
+
+---
+
+## Dataset
+
+The application uses the employee dataset provided as part of the FactWise assessment.
+
+---
+
+## Author
+
+**Saurabh Jaiswar**
+
+GitHub: https://github.com/YOUR_USERNAME
+
+LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN_PROFILE
