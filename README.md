@@ -1,6 +1,6 @@
 # Employee Dashboard - FactWise Assessment
 
-A responsive Employee Dashboard built using React, AG Grid, and Tailwind CSS. The application displays employee records in a powerful data grid with search, filtering, sorting, pagination, and employee detail views.
+A responsive Employee Dashboard built using React, AG Grid, and Tailwind CSS. The application displays employee records in a powerful data grid with advanced features such as search, sorting, filtering, pagination, CSV export, employee statistics, and detailed employee profile views.
 
 ---
 
@@ -12,6 +12,7 @@ A responsive Employee Dashboard built using React, AG Grid, and Tailwind CSS. Th
 - Column Sorting
 - Column Filtering
 - Pagination
+- Export Employee Data to CSV
 - Employee Details Modal
 - Responsive UI using Tailwind CSS
 - Employee Statistics Cards
@@ -35,7 +36,7 @@ A responsive Employee Dashboard built using React, AG Grid, and Tailwind CSS. Th
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/factwise-employee-dashboard.git
+git clone https://github.com/Saurabhjaiswar05/factwise-employee-dashboard.git
 ```
 
 ### Navigate to Project
@@ -125,6 +126,7 @@ src/
 - Sort Columns
 - Filter Data
 - Pagination
+- Export Employee Data as CSV
 - Responsive Layout
 
 ### Employee Details Modal
@@ -157,3 +159,5 @@ The application uses the employee dataset provided as part of the FactWise asses
 ## Author
 
 **Saurabh Jaiswar**
+
+GitHub: https://github.com/Saurabhjaiswar05
