@@ -79,7 +79,7 @@ const EmployeeTable = () => {
               setSelectedEmployee(params.data);
               setIsModalOpen(true);
             }}
-            className="bg-blue-500 text-white px-3 py-1  rounded"
+            className="bg-blue-500 text-white px-3 py-1  rounded cursor-pointer"
           >
             <HiOutlineEye size={18} />
           </button>
@@ -101,19 +101,33 @@ const EmployeeTable = () => {
 
     gridRef.current.api.setGridOption("quickFilterText", e.target.value);
   };
+  const handleExport = () => {
+    gridRef.current.api.exportDataAsCsv({
+      fileName: "employees.csv",
+    });
+  };
 
   return (
     <div className="bg-white p-5 rounded-xl shadow">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold">Employee Records</h2>
 
-        <input
-          type="text"
-          placeholder="Search employees..."
-          value={searchText}
-          onChange={handleSearch}
-          className="border border-gray-300 rounded-lg px-4 py-2 outline-none"
-        />
+        <div className="flex gap-2">
+          <input
+            type="text"
+            placeholder="Search employees..."
+            value={searchText}
+            onChange={handleSearch}
+            className="border border-gray-300 rounded-lg px-4 py-2"
+          />
+
+          <button
+            onClick={handleExport}
+            className="bg-green-600 text-white px-4 py-2 rounded-lg cursor-pointer"
+          >
+            Export CSV
+          </button>
+        </div>
       </div>
 
       <AgGridProvider modules={[AllCommunityModule]}>

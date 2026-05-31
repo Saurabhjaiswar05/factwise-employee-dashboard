@@ -115,7 +115,7 @@
       "location": "Chicago",
       "performanceRating": 4.3,
       "projectsCompleted": 11,
-      "isActive": true,
+      "isActive": false,
       "skills": ["Sales Strategy", "Team Management", "B2B Sales"],
       "manager": "Jennifer Lee"
     },
